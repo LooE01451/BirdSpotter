@@ -19,23 +19,27 @@ filtered_df = clean_df[clean_df["common_name"].isin(species_counts[species_count
 
 print(filtered_df.head())
 rows,columns = filtered_df.shape
-print(f"{rows}: {columns}")
+
 
 print("Number of species:", filtered_df["common_name"].nunique())
 print(filtered_df["common_name"].value_counts())
-print(filtered_df[["common_name", "image_url"]].head())
 
 
+
+# Add a column with the number of images per species
+filtered_df["num_images"] = filtered_df["common_name"].map(species_counts)
+print(filtered_df[["common_name", "image_url", "num_images"]].head())
 num_images = filtered_df["image_url"].notnull().sum()
 #filtered_df.to_csv('filteredBirdList.csv')
+print(f"{rows}: {columns}")
 print(f"Total images to download: {num_images}")
-"""
-#test_df = filtered_df.sample(10)  
+
+test_df = filtered_df.sample(10)  
 # Set your output directory
 output_dir = "C:/Users/yakis/Documents/GitHub/BirdSpotter/birdDataset"
 os.makedirs(output_dir, exist_ok=True)
 
-for i, row in tqdm(filtered_df.iterrows(), total=len(filtered_df)):
+for i, row in tqdm(test_df.iterrows(), total=len(test_df)):
     label = row["common_name"].strip().replace("/", "_")
     image_url = row["image_url"]
     bird_id = row["id"]
@@ -56,5 +60,4 @@ for i, row in tqdm(filtered_df.iterrows(), total=len(filtered_df)):
             f.write(str(i))  # i from the loop
     except Exception as e:
         print(f"Failed to download {image_url}: {e}")
-        
-"""
+
