@@ -1,0 +1,631 @@
+Eastern Spot-billed Duck                  7305
+Grey Heron                                5900
+Brown-eared Bulbul                        4032
+Eurasian Tree Sparrow                     3748
+Feral Pigeon                              3638
+White-cheeked Starling                    3438
+Oriental Turtle-Dove                      3198
+Black-backed Wagtail                      2926
+Large-billed Crow                         2790
+Great Egret                               2686
+Barn Swallow                              2628
+Mallard                                   2614
+Asian Tit                                 2611
+Eurasian Coot                             2514
+Little Egret                              2509
+Great Cormorant                           2384
+Eurasian Wigeon                           2176
+Black-eared Kite                          2110
+Dusky Thrush                              2073
+Common Kingfisher                         2012
+Warbling White-eye                        1989
+Carrion Crow                              1904
+Japanese Wagtail                          1728
+Bull-headed Shrike                        1617
+Black Kite                                1548
+Varied Tit                                1514
+Tufted Duck                               1485
+Oriental Greenfinch                       1483
+Green-winged Teal                         1468
+Daurian Redstart                          1460
+White Wagtail                             1438
+Little Grebe                              1272
+Meadow Bunting                            1231
+Eurasian Teal                             1220
+Northern Pintail                          1171
+Japanese Pygmy Woodpecker                 1155
+Black-tailed Gull                         1133
+Grey Wagtail                              1103
+Eastern Grey Heron                        1100
+Black-headed Gull                         1098
+Common Pochard                            1081
+Blue Rock-Thrush                          1026
+Long-tailed Tit                           1019
+Masked Bunting                            1011
+Northern Shoveler                          953
+Common Sandpiper                           859
+Pale Thrush                                856
+Green Pheasant                             695
+Chinese Hwamei                             669
+Osprey                                     662
+Brown-eared Bulbul (amaurotis)             623
+Japanese Crow                              596
+Gadwall                                    596
+Japanese Tit                               589
+Eastern Buzzard                            578
+Japanese Great Cormorant                   574
+Great Crested Grebe                        557
+Azure-winged Magpie                        549
+Black-crowned Night Heron                  541
+Mallard × Eastern Spot-billed Duck         522
+Falcated Duck                              506
+Eastern Carrion Crow                       472
+Greater Scaup                              472
+Common Moorhen                             468
+Mute Swan                                  462
+Slaty-backed Gull                          456
+Eurasian coot                              416
+Little Ringed Plover                       413
+Eurasian Kestrel                           389
+Amur Barn Swallow                          386
+Common Merganser                           366
+Eastern Oriental Turtle Dove               363
+Red-flanked Bluetail                       356
+Western Little Egret                       352
+Whooper Swan                               346
+Gray-faced Buzzard                         337
+Siberian Pipit                             330
+Great Spotted Woodpecker                   323
+Japanese Cormorant                         320
+Indian Common Kingfisher                   312
+Mandarin Duck                              312
+Red-crowned Crane                          311
+Japanese Bush Warbler                      311
+White-tailed Eagle                         307
+Light-vented Bulbul                        295
+Brambling                                  294
+Hawfinch                                   277
+Japanese Green Woodpecker                  272
+Steller's Sea-Eagle                        265
+Vega Gull                                  262
+Asian House Martin                         253
+Rustic Bunting                             250
+Grey-tailed Tattler                        250
+Narcissus Flycatcher                       242
+Chinese Bamboo-Partridge                   241
+Zitting Cisticola                          235
+Common Greenshank                          226
+East Asian Little Grebe                    225
+Smew                                       221
+Eurasian Nuthatch                          218
+Eastern Great Egret                        216
+Long-billed Plover                         212
+Red-breasted Merganser                     209
+Japanese Grosbeak                          209
+Pacific Reef Heron                         208
+Black-winged Stilt                         207
+Common Snipe                               207
+Medium Egret                               196
+Eurasian Goshawk                           192
+Honshu Long-tailed Tit                     192
+Eurasian Jay                               188
+Dunlin                                     187
+Chestnut-cheeked Starling                  185
+Coal Tit                                   185
+Eurasian Skylark                           180
+Brown-headed Thrush                        179
+Rose-ringed Parakeet                       179
+Harlequin Duck                             179
+Oriental Reed Warbler                      178
+Black-faced Spoonbill                      169
+Eurasian Sparrowhawk                       165
+Whimbrel                                   164
+Long-tailed Rosefinch                      163
+Reed Bunting                               163
+Amur Stonechat                             163
+Pacific Golden Plover                      163
+Holarctic Mallard                          162
+Red-billed Leiothrix                       160
+Olive-backed Pipit                         158
+Eastern Cattle-Egret                       154
+Eurasian Great Crested Grebe               153
+Brown Dipper                               147
+Eastern Red-rumped Swallow                 147
+Rock Pigeon                                146
+Baikal Teal                                145
+Peregrine Falcon                           141
+Grey-headed Lapwing                        139
+Northern Lapwing                           138
+Eared Grebe                                138
+Common Goldeneye                           137
+Kentish Plover                             133
+Blue-and-white Flycatcher                  133
+Domestic Mallard                           128
+White's Thrush                             122
+Pelagic Cormorant                          122
+Black-bellied Plover                       121
+Little Tern                                121
+Streaked Shearwater                        120
+Eurasian Osprey                            120
+Willow Tit                                 119
+Japanese Jay                               119
+Western Grey Wagtail                       117
+Asian Brown Flycatcher                     111
+Eurasian Siskin                            110
+Eurasian Oystercatcher                     109
+Greater White-fronted Goose                106
+Green Sandpiper                             99
+House Swift                                 98
+Sanderling                                  98
+Gray-streaked Flycatcher                    96
+Ruddy Turnstone                             95
+Eurasian Wren                               94
+Japanese Skylark                            93
+Domestic Muscovy Duck                       93
+Japanese Sparrowhawk                        92
+Scaly-breasted Munia                        88
+Brown-cheeked Rail                          87
+Red-necked Stint                            87
+Japanese Waxwing                            86
+Oriental Stork                              86
+Ryukyu Minivet                              84
+Chestnut-eared Bunting                      83
+Japanese Magpie                             83
+Common Gull                                 79
+Japanese Ptarmigan                          79
+Okinawa Robin                               78
+Hooded Crane                                78
+Striated Heron                              76
+White-naped Crane                           75
+Blakiston's Fish-Owl                        74
+Okinawa Rail                                74
+Tundra Swan                                 74
+Wood Sandpiper                              73
+Black Scoter                                72
+Glaucous Gull                               71
+Northern Boobook                            70
+Eurasian Bullfinch                          68
+Common Gadwall                              68
+Pacific Swallow                             66
+Japanese Accentor                           64
+Grey Bunting                                63
+Saunders's Gull                             63
+White-bellied Green-Pigeon                  63
+Bewick's Swan                               63
+Ryukyu Serpent-Eagle                        62
+Marsh Tit                                   62
+Japanese Thrush                             61
+Terek Sandpiper                             60
+Ural Owl                                    60
+Eurasian Woodcock                           59
+Bar-tailed Godwit                           59
+Yellow-throated Bunting                     59
+Eastern Marsh Harrier                       58
+Common Shelduck                             55
+Pacific Swift                               54
+White-backed Woodpecker                     54
+Eurasian Common Moorhen                     54
+Goosander                                   54
+Common Redshank                             53
+White-breasted Waterhen                     52
+Japanese Hawfinch                           52
+European greater scaup                      52
+Rook                                        51
+Goldcrest                                   51
+Garganey                                    49
+Ryukyu Scops-Owl                            47
+Gray-bellied Bullfinch                      47
+Eurasian Black-crowned Night-Heron          47
+Alpine Accentor                             45
+Russet Sparrow                              45
+Oriental Magpie                             44
+Pied Avocet                                 44
+Eurasian Treecreeper                        43
+Okinawa Woodpecker                          43
+Glaucous-winged Gull                        42
+Hen Harrier                                 42
+Crested Myna                                41
+Siberian Rubythroat                         41
+Indian Rose-ringed Parakeet                 41
+Japanese Eurasian Goshawk                   41
+Black Paradise-Flycatcher                   41
+American Wigeon                             40
+Ruddy-breasted Crake                        39
+Eurasian Black-necked Grebe                 39
+Okinawa Tit                                 39
+Long-toed Stint                             38
+Common Pacific Reef Heron                   38
+Crested Ibis                                38
+Tundra Bean Goose                           37
+Eurasian Spoonbill                          36
+Brown Booby                                 36
+Great Knot                                  35
+Whistling Green-Pigeon                      35
+Bufflehead                                  34
+Oriental Honey-buzzard                      34
+Taiga Bean Goose                            34
+Ferruginous Duck                            34
+Spectacled Guillemot                        34
+Crested Serpent-Eagle                       34
+Short-eared Owl                             34
+Eastern Yellow Wagtail                      33
+Far Eastern Curlew                          33
+South Ryukyu crow                           33
+Northern Long-tailed Tit                    32
+Spotted Redshank                            32
+Rhinoceros Auklet                           32
+European Starling                           32
+Black Swan                                  32
+Amami Woodcock                              32
+Lidth's Jay                                 32
+Northern Little Ringed Plover               32
+Whiskered Tern                              32
+Temminck's Stint                            32
+Long-tailed Duck                            31
+Northern Nutcracker                         31
+Eastern Crowned Warbler                     30
+Stejneger's Scoter                          30
+Western Great Egret                         30
+Eyebrowed Thrush                            30
+Japanese Robin                              30
+Siberian Sand Plover                        29
+Eastern Peregrine Falcon                    29
+Chinese Pond-Heron                          29
+Ashy Minivet                                29
+Western Kentish Plover                      28
+Asian Stubtail                              28
+Indian Peafowl                              28
+Black-naped Tern                            27
+Sandhill Crane                              27
+Red Crossbill                               27
+Marsh Sandpiper                             27
+Long-eared Owl                              26
+Red-necked Grebe                            26
+Grey-headed Woodpecker                      26
+Merlin                                      26
+Bohemian Waxwing                            25
+Crested Kingfisher                          25
+Oriental Pratincole                         25
+Ruddy Kingfisher                            25
+Eurasian Wryneck                            24
+Cinnamon Bittern                            24
+Copper Pheasant                             24
+Izu Thrush                                  24
+Kamchatka Gull                              23
+Japanese Coal Tit                           23
+Black-tailed Godwit                         23
+Eurasian Goldeneye                          23
+Malayan Night Heron                         22
+Greater Painted-Snipe                       22
+Black Woodpecker                            22
+Ryukyu Robin                                21
+Eastern Rustic Bunting                      21
+Black-browed Reed Warbler                   21
+Ruff                                        21
+Asian Rosy-Finch                            21
+Mountain Hawk-Eagle                         20
+Red-crested Pochard                         19
+Ishigaki Tit                                19
+Japanese Night Heron                        19
+Willow Tit (Japanese)                       19
+Amami Woodpecker                            19
+Domestic Swan Goose                         19
+Snow Goose                                  19
+Black Brant                                 19
+Sharp-tailed Sandpiper                      19
+Siberian Blue Robin                         19
+Eurasian Curlew                             19
+Brant                                       19
+Yellow Bittern                              18
+Ruddy-breasted Crake (Northeastern)         18
+Common Cuckoo                               18
+Black Wood-Pigeon                           18
+Redpoll                                     18
+Sakhalin Long-tailed Rosefinch              17
+Red-necked Phalarope                        17
+Baer's Pochard                              17
+Common Hoopoe                               17
+Far Eastern Zitting Cisticola               17
+Naumann's Thrush                            17
+Bank Swallow                                17
+Purple Heron                                17
+Masked Laughingthrush                       17
+Brown Shrike                                17
+Eurasian Common Snipe                       16
+Eurasian Hobby                              16
+Common Pochard × Ferruginous Duck           16
+Palearctic Eurasian Spoonbill               16
+Far Eastern Reed Bunting                    16
+American × Eurasian Wigeon                  16
+Siberian Crane                              15
+Pallas's Bunting                            15
+Scintillating Copper pheasant               15
+Red-throated Pipit                          15
+Asian Emerald Dove                          15
+Oriental Cuckoo                             15
+Common Crane                                14
+Ring-necked Pheasant                        14
+Long-billed Dowitcher                       14
+Short-tailed Shearwater                     14
+Ring-necked Duck                            14
+Eurasian Nutcracker (Japanese)              13
+Izu Robin                                   13
+Chinese Penduline-Tit                       13
+Horned Grebe                                13
+Red-breasted Flycatcher                     13
+Brown-eared Bulbul (Amami)                  13
+Mugimaki Flycatcher                         12
+Latham's Snipe                              12
+Pacific Copper pheasant                     12
+Dollarbird                                  12
+Little Bunting                              12
+Red-throated Loon                           12
+Whistling Swan                              12
+Owston's Tit                                12
+Snow Bunting                                11
+Ryukyu Flycatcher                           11
+Violet-green Pelagic Cormorant              11
+Japanese Wood-Pigeon (Japanese)             11
+Black-legged Kittiwake                      11
+Japanese Scops-Owl                          11
+Daurian Jackdaw                             11
+Red-faced Cormorant                         11
+Black Paradise-Flycatcher (Northern)        11
+Black-winged Kite                           11
+Amami Tit                                   10
+Curlew Sandpiper                            10
+Northern Hawk-Cuckoo                        10
+Arctic Loon                                 10
+Amur Wagtail                                10
+Amami Thrush                                10
+Caspian Tern                                10
+Pacific Merlin                              10
+Hazel Grouse (Japanese)                     10
+Ruddy Shelduck                              10
+Japanese Crossbill                          10
+Broad-billed Sandpiper                      10
+Kyushu Long-tailed Tit                       9
+Black Paradise-Flycatcher (Ryukyu)           9
+Japanese Murrelet                            9
+Eurasian Bittern                             9
+American Green-winged Teal                   9
+Ochre-rumped Bunting                         9
+Siberian Sparrowhawk                         9
+Ijima's Leaf Warbler                         9
+Common Myna                                  9
+Laysan Albatross                             8
+Yellow-billed Grosbeak                       8
+East Asian Striated Heron                    8
+Middendorff's Bean Goose                     8
+Ancient Murrelet                             8
+Pheasant-tailed Jacana                       8
+Yellow-browed Bunting                        8
+Domestic Chicken                             8
+Philippine Brown Shrike                      8
+Pleske's Grasshopper Warbler                 8
+White-shouldered Starling                    8
+Pacific Loon                                 8
+White-browed Laughingthrush                  7
+Richard's Pipit                              7
+Roseate Tern                                 7
+Aleutian Cackling Goose                      7
+East Siberian Wagtail                        7
+Short-tailed Albatross                       7
+Taiwan Bulbul                                7
+Red Phalarope                                7
+Eastern White-breasted Waterhen              7
+Chinese Sparrowhawk                          7
+Red Knot                                     7
+Greater Sand Plover                          7
+Dark-sided Flycatcher                        6
+White-throated Needletail                    6
+Indo-Pacific Brown Booby                     6
+Chinese Egret                                6
+Western Eurasian Hobby                       6
+Rough-legged Hawk                            6
+Western Pacific Little Tern                  6
+Red-billed Starling                          6
+Lesser Cuckoo                                6
+Kolyma Rosy-Finch                            6
+Domestic Greylag Goose                       6
+Siberian Whimbrel                            6
+Chestnut Munia                               6
+Solitary Snipe                               6
+Pine Grosbeak                                6
+Eastern Rook                                 6
+Asian Brown Flycatcher (Northern)            6
+Lesser White-fronted Goose                   6
+Great White Pelican                          5
+Canvasback                                   5
+Eurasian Ruddy Turnstone                     5
+White-winged Tern                            5
+Black-faced Bunting                          5
+Rock Ptarmigan                               5
+Common Tern                                  5
+Silver Pheasant                              5
+Lesser Black-backed Gull                     5
+Japanese Leaf Warbler                        5
+Chinese Blackbird                            5
+Marsh Grassbird                              5
+Holbøll's Red-necked Grebe                   5
+Brown-eared Bulbul (Miyako)                  5
+European Cuckoo                              5
+Gull-billed Tern                             5
+Pigeon Guillemot                             5
+Eastern Purple Heron                         5
+Far Eastern Oystercatcher                    5
+Pallas's Rosefinch                           5
+Eastern Kentish Plover                       4
+Oriental Plover                              4
+Red Collared-Dove                            4
+Lesser Spotted Woodpecker                    4
+Cackling Goose                               4
+Northern Oriental Honey-Buzzard              4
+Yellow Bunting                               4
+Pectoral Sandpiper                           4
+Eurasian Horned Grebe                        4
+Crows and Ravens                             4
+Black-footed Albatross                       4
+Swan Goose                                   4
+Mallards, Pintails, and Allies               4
+Upland Buzzard                               4
+Slaty-legged Crake                           4
+Tristram's Bunting                           4
+Common Murre                                 4
+Siberian Thrush                              4
+Red-headed Wood-Pigeon                       4
+Commander Gull                               4
+Bonin White-eye                              3
+Domestic Greylag × Domestic Swan Goose       3
+Brewer's Duck                                3
+Dunlin (sakhalina)                           3
+Baer's Pochard × Ferruginous Duck            3
+Iriomote Tit                                 3
+Scaly-sided Merganser                        3
+Lesser Scaup                                 3
+Northern Short-eared Owl                     3
+Parasitic Jaeger                             3
+Soemmering's Copper pheasant                 3
+Chickadees and Allies                        3
+Typical Herons and Egrets                    3
+Red Junglefowl                               3
+Eurasian White-fronted Goose                 3
+Tristram's Storm-Petrel                      3
+Thayer's Gull                                3
+Yellow-breasted Bunting                      3
+Barred Buttonquail                           3
+Heuglin's Gull                               3
+Yellow-browed Warbler                        3
+Lapland Longspur                             3
+Hazel Grouse                                 3
+Scops-Owls                                   3
+Malayan Night Heron (Common)                 3
+Eurasian Long-eared Owl                      3
+Rosy Starling                                3
+Black Drongo                                 3
+Crested Auklet                               3
+Least Auklet                                 2
+Velvet Scoter                                2
+Brown-eared Bulbul (Bonin)                   2
+Bridled Tern                                 2
+Pied Harrier                                 2
+Lesser Sandhill Crane                        2
+Gray Nightjar                                2
+Japanese Golden Eagle                        2
+Brown-eared Bulbul (Minami Daitō)            2
+Great Herons and Egrets                      2
+Pomarine Jaeger                              2
+Indian Common Myna                           2
+Swinhoe's Snipe                              2
+Yellow-bellied Tit                           2
+Mallard × Muscovy Duck                       2
+Little Stint                                 2
+Kuril Brown-headed Thrush                    2
+Shikoku Copper pheasant                      2
+Rufous-tailed Robin                          2
+Mongolian Gull                               2
+Forest Wagtail                               2
+Demoiselle Crane                             2
+Dusky Warbler                                2
+Asian Dowitcher                              2
+Watercock                                    2
+Red-whiskered Bulbul                         2
+Typical Old World Cormorants                 2
+Leach's Storm-Petrel                         2
+Common Raven                                 2
+Asian Glossy Starling                        2
+Ijima Copper pheasant                        2
+Black-throated Thrush                        2
+Yellow-billed Loon                           2
+Domestic Budgerigar                          2
+Eastern Eurasian Curlew                      2
+Pine Bunting                                 2
+Wedge-tailed Shearwater                      2
+Yellow-rumped Flycatcher                     2
+Large White-headed Gulls                     2
+Great Crested Tern                           2
+Bluethroat                                   2
+Citrine Wagtail                              2
+American Herring Gull                        1
+Siberian Common Tern                         1
+True Swans                                   1
+Javan Pond-Heron                             1
+Spoon-billed Sandpiper                       1
+Superb Starling                              1
+Red-legged Kittiwake                         1
+Eurasian Eagle-Owl                           1
+House Swift (Taiwan)                         1
+Collared Kingfisher                          1
+Steller's Eider                              1
+Eastern Great Crested Tern                   1
+Siberian Accentor                            1
+Gyrfalcon                                    1
+Horned Lark                                  1
+Oriental Scops-Owl                           1
+Silver Gull                                  1
+Common Ringed Plover                         1
+Red-throated Thrush                          1
+Masked Booby                                 1
+Green-headed Yellow Wagtail                  1
+Chinese Grey Shrike                          1
+House Crow (Burmese)                         1
+Eurasian Collared-Dove                       1
+Siberian willow warbler                      1
+European Robin                               1
+Great Frigatebird                            1
+Common × Hooded Crane                        1
+Common Chiffchaff                            1
+Ruddy-breasted Crake (Ryukyu)                1
+Thick-billed Murre                           1
+Eastern Jungle Crow                          1
+Buff-breasted Sandpiper                      1
+Helmeted Guineafowl                          1
+Surf Scoter                                  1
+Typical Snipes                               1
+Amur Falcon                                  1
+Pin-tailed Snipe                             1
+Kamchatka Leaf Warbler                       1
+Siberian House Martin                        1
+Meadow Pipit                                 1
+White-winged Scoter                          1
+Daurian Starling                             1
+Siberian Greylag Goose                       1
+Blue-winged Teal                             1
+Red-tailed Tropicbird                        1
+Tiger Shrike                                 1
+Sooty Shearwater                             1
+Fork-tailed Storm-Petrel                     1
+Buteos                                       1
+Greater Spotted Eagle                        1
+Lesser Snow Goose                            1
+House Swift (Northern)                       1
+Japanese Quail                               1
+Black Redstart                               1
+Verditer Flycatcher                          1
+Northeastern Siberian Red Knot               1
+Sykes's Short-toed Lark                      1
+Old World Buntings                           1
+Brown Noddy                                  1
+Grey-backed Thrush                           1
+Kuril Guillemot                              1
+Turkey Vulture                               1
+Fairy Pitta                                  1
+Brown-eared Bulbul (Iwo)                     1
+Pallas's Leaf Warbler                        1
+Golden Eagle                                 1
+Eastern Black Redstart                       1
+Common Eurasian bittern                      1
+Great Egret × Grey Heron                     1
+Aleutian Savannah Sparrow                    1
+Nordmann's Greenshank                        1
+Western Sandpiper                            1
+Lesser Frigatebird                           1
+Javan Myna                                   1
+House Sparrow                                1
+Taimyr Gull                                  1
+Northern Fulmar                              1
+Peale's Peregrine Falcon                     1
+Desert Wheatear                              1
+Red-footed Booby                             1
+Muscovy Duck                                 1
+Chestnut Bunting                             1
