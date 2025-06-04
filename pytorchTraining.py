@@ -7,7 +7,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
-import pickle
+import json
 
 DATA_DIR = "F:/birdData/birdDataset"
 BATCH_SIZE = 32
@@ -59,8 +59,8 @@ def main():
         raise FileNotFoundError(f"{DATA_DIR} does not exist.")
     dataset = datasets.ImageFolder(DATA_DIR, transform=transform)
     class_names = dataset.classes
-    with open("class_names.pkl", "wb") as f:
-        pickle.dump(class_names, f)
+    with open("class_names.json", "w") as f:
+        json.dump(class_names, f)
     image_paths = dataset.samples
     labels = [label for _, label in image_paths]
 
