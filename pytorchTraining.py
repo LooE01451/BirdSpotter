@@ -2,7 +2,6 @@ import os
 import torch
 from torchvision import datasets, transforms, models
 from torch.utils.data import DataLoader
-from torch.utils.data import random_split
 import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
@@ -82,6 +81,7 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=LR)
     losses = []
     accuracies = []
+    val_accuracies = []
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.5)
     for epoch in range(EPOCHS): #this is the training loop
         model.train()
@@ -117,6 +117,7 @@ def main():
             val_accuracy = val_correct / val_total
             print(f"Validation Accuracy: {val_accuracy:.4f}")
         accuracies.append(correct / total)
+        val_accuracies.append(val_accuracy)
         if val_accuracy > best_accuracy:
             best_accuracy = val_accuracy
             torch.save(model.state_dict(), "best_model.pth")
@@ -124,17 +125,23 @@ def main():
         scheduler.step()
     plt.figure(figsize=(10, 4))
 
-    plt.subplot(1, 2, 1)
+    plt.subplot(1, 3, 1)
     plt.plot(range(1, EPOCHS + 1), losses, label="Loss")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.title("Training Loss")
 
-    plt.subplot(1, 2, 2)
+    plt.subplot(1, 3, 2)
     plt.plot(range(1, EPOCHS + 1), accuracies, label="Accuracy", color='green')
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.title("Training Accuracy")
+
+    plt.subplot(1, 3, 3)
+    plt.plot(range(1, EPOCHS + 1), accuracies, label="Accuracy", color='green')
+    plt.xlabel("Epoch")
+    plt.ylabel("Accuracy")
+    plt.title("Validation Accuracy")
 
     plt.tight_layout()
     plt.savefig("training_curves.png")
