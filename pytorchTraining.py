@@ -2,15 +2,19 @@ import os
 import torch
 from torchvision import datasets, transforms, models
 from torch.utils.data import DataLoader
+from torch.utils.data import random_split
 import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
-DATA_DIR = "D:/birdData/birdDataset"
+from tqdm import tqdm
+DATA_DIR = "F:/birdData/birdDataset"
 BATCH_SIZE = 32
 EPOCHS = 10 #number of loops through the dataset
 LR = 1e-4
 IMG_SIZE = 224
 NUM_WORKERS = 2
+print("CUDA available: ", torch.cuda.is_available())
+print("Device name:",torch.cuda.get_device_name(0) if torch.cuda.is_available() else "None")
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 #use an unnormalised transform to get the values we should use to normalise the pixel values
@@ -39,6 +43,7 @@ Custom Std:  tensor([0.1541, 0.1575, 0.1697])
 """
 
 def main():
+    best_accuracy = 0
     transform = transforms.Compose([
         transforms.Resize((IMG_SIZE, IMG_SIZE)),
         transforms.ToTensor(),
@@ -49,7 +54,15 @@ def main():
         raise FileNotFoundError(f"{DATA_DIR} does not exist.")
     dataset = datasets.ImageFolder(DATA_DIR, transform=transform)
     class_names = dataset.classes
-    train_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
+   
+
+    val_split = 0.2
+    val_size = int(val_split * len(dataset))
+    train_size = len(dataset) - val_size
+    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
+    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
+    #train_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
 
     model = models.resnet18(pretrained=True)
     model.fc = nn.Linear(model.fc.in_features, len(class_names))
@@ -64,7 +77,8 @@ def main():
         total_loss = 0
         correct = 0
         total = 0
-        for imgs, labels in train_loader:
+        loop = tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}")
+        for imgs, labels in loop:
             imgs, labels = imgs.to(DEVICE), labels.to(DEVICE)
 
             optimizer.zero_grad()
@@ -77,9 +91,24 @@ def main():
             _, preds = torch.max(outputs, 1)
             correct += (preds == labels).sum().item()
             total += labels.size(0)
+            loop.set_postfix(loss=loss.item())
         losses.append(total_loss)
+        model.eval()
+        with torch.no_grad():
+            val_correct = 0
+            val_total = 0
+            for imgs, labels in val_loader:
+                imgs, labels = imgs.to(DEVICE), labels.to(DEVICE)
+                outputs = model(imgs)
+                _, preds = torch.max(outputs, 1)
+                val_correct += (preds == labels).sum().item()
+                val_total += labels.size(0)
+            val_accuracy = val_correct / val_total
+            print(f"Validation Accuracy: {val_accuracy:.4f}")
         accuracies.append(correct / total)
-
+        if val_accuracy > best_accuracy:
+            best_accuracy = val_accuracy
+            torch.save(model.state_dict(), "best_model.pth")
         print(f"Epoch {epoch+1}/{EPOCHS} | Loss: {total_loss:.4f} | Accuracy: {correct/total:.4f}")
     plt.figure(figsize=(10, 4))
 
@@ -99,14 +128,11 @@ def main():
     plt.savefig("training_curves.png")
     plt.show()
 
-     
 
 
-    # model is saved
-    model.eval()
-    torch.save(model.state_dict(), "bird_species_classifier.pth")
-    torch.save(model, "bird_species_classifier_full.pth")
-    print("✅ Model saved to bird_species_classifier.pth")
+    torch.save(model.state_dict(), "final_model.pth")
+
+
 
 if __name__ == "__main__":
     main()
