@@ -7,9 +7,12 @@ import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
 from tqdm import tqdm
+from sklearn.model_selection import train_test_split
+import pickle
+
 DATA_DIR = "F:/birdData/birdDataset"
 BATCH_SIZE = 32
-EPOCHS = 10 #number of loops through the dataset
+EPOCHS = 15 #number of loops through the dataset
 LR = 1e-4
 IMG_SIZE = 224
 NUM_WORKERS = 2
@@ -46,6 +49,9 @@ def main():
     best_accuracy = 0
     transform = transforms.Compose([
         transforms.Resize((IMG_SIZE, IMG_SIZE)),
+        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
+        transforms.RandomHorizontalFlip(),
+        transforms.RandomRotation(10),
         transforms.ToTensor(),
         transforms.Normalize([0.5210, 0.5474, 0.5422], 
                              [0.1541, 0.1575, 0.1697])  # the custom values that I got earlier
@@ -54,12 +60,16 @@ def main():
         raise FileNotFoundError(f"{DATA_DIR} does not exist.")
     dataset = datasets.ImageFolder(DATA_DIR, transform=transform)
     class_names = dataset.classes
-   
+    with open("class_names.pkl", "wb") as f:
+        pickle.dump(class_names, f)
+    image_paths = dataset.samples
+    labels = [label for _, label in image_paths]
 
-    val_split = 0.2
-    val_size = int(val_split * len(dataset))
-    train_size = len(dataset) - val_size
-    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+    train_idx, val_idx = train_test_split(
+        range(len(labels)), test_size=0.2, stratify=labels, random_state=42)
+
+    train_dataset = torch.utils.data.Subset(dataset, train_idx)
+    val_dataset = torch.utils.data.Subset(dataset, val_idx)
     train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
     val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
     #train_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
@@ -72,6 +82,7 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=LR)
     losses = []
     accuracies = []
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.5)
     for epoch in range(EPOCHS): #this is the training loop
         model.train()
         total_loss = 0
@@ -110,6 +121,7 @@ def main():
             best_accuracy = val_accuracy
             torch.save(model.state_dict(), "best_model.pth")
         print(f"Epoch {epoch+1}/{EPOCHS} | Loss: {total_loss:.4f} | Accuracy: {correct/total:.4f}")
+        scheduler.step()
     plt.figure(figsize=(10, 4))
 
     plt.subplot(1, 2, 1)
