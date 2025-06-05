@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Upload an Image</title>
+    <style>
+      body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; margin-top: 50px; }
+    </style>
+  </head>
+  <body>
+    <h2>Upload an Image</h2>
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required>
+      <input type="submit" value="Upload">
+    </form>
+    {% if result %}
+      <p><strong>Result:</strong> {{ result }}</p>
+    {% endif %}
+  </body>
+</html>

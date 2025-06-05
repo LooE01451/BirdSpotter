@@ -3,17 +3,17 @@ from torchvision import transforms, models
 from PIL import Image
 import json
 
-def predict_species(image_path, model_path="D:/models/05062025resnet34/best_model.pth", class_names_path="class_names.json", device=None):
+def predict_species(image_path, model_path="model_and_interface/05062025resnet34.pth", class_names_path="model_and_interface/class_names.json", device=None):
     # Use GPU if available
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load class names
-    with open("class_names.json", "rb") as f:
+    with open(class_names_path, "rb") as f:
         class_names = json.load(f)
 
     # Load model
-    model = models.resnet18(pretrained=False)
+    model = models.resnet34(pretrained=False)
     model.fc = torch.nn.Linear(model.fc.in_features, len(class_names))
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.to(device)
@@ -37,5 +37,5 @@ def predict_species(image_path, model_path="D:/models/05062025resnet34/best_mode
         _, pred = torch.max(output, 1)
         predicted_class = class_names[pred.item()]
 
-    return predicted_class
+    return predicted_class.replace("_", " ")
 
