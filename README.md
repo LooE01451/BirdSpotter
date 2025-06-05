@@ -1,9 +1,9 @@
-Dependencies necessary for the interface: 
+# Dependencies necessary for the interface: 
 
-torch
-torchvision
-pillow
+### torch
+### torchvision
+### pillow
 
-To use the interface:
+# To use the interface:
 
-from model_and_interface.model_interface import predict_species
+### from model_and_interface.model_interface import predict_species
