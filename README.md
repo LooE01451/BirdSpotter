@@ -1,5 +1,5 @@
-# 🐦 Bird Species Identifier
-Welcome to the Bird Species Identifier – a simple interface and pretrained model for identifying bird species from images.
+# 🐦 Bird Species Identifier (Japan)
+Welcome to the Bird Species Identifier – a simple interface and pretrained model for identifying bird species in Japan from images
 
 # 🚀 Quick Start
 To get started, simply download the model_and_interface folder and include it in your project directory.
