@@ -73,7 +73,7 @@ def main():
     val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=NUM_WORKERS)
     #train_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=NUM_WORKERS)
 
-    model = models.resnet18(pretrained=True)
+    model = models.resnet34(pretrained=True)
     model.fc = nn.Linear(model.fc.in_features, len(class_names))
     model = model.to(DEVICE)
 
@@ -138,7 +138,7 @@ def main():
     plt.title("Training Accuracy")
 
     plt.subplot(1, 3, 3)
-    plt.plot(range(1, EPOCHS + 1), accuracies, label="Accuracy", color='green')
+    plt.plot(range(1, EPOCHS + 1), val_accuracies, label="Accuracy", color='green')
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy")
     plt.title("Validation Accuracy")
