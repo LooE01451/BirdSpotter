@@ -1,3 +1,5 @@
+# Example is at example_app
+
 # To use the model, download the folder **model_and_interface** and put it in your project
 
 
