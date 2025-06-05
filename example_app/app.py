@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 import os
 
 app = Flask(__name__)
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = 'example_app/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 def analyze_image(image_path):
